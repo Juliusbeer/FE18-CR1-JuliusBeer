@@ -133,4 +133,15 @@ hr {
 }
 .list li {
   margin: 1%;
+}
+
+.icons {
+  display: flex;
+  justify-content: center;
+  background-color: black;
+  fill: white;
+}
+.icons .fimg {
+  width: 2%;
+  fill: white;
 }/*# sourceMappingURL=style.css.map */

@@ -135,6 +135,16 @@
         }
     }
     
-    // .fixed {
-    //     position: fixed;
-    // }
+    .icons {
+        display: flex;
+        justify-content: center;
+        background-color: black;
+        fill: white;
+        .fimg {
+            width: 2%;
+            fill: white;
+            // display: flex;
+            // justify-content: center;
+            // align-items: center;
+        }
+    }
