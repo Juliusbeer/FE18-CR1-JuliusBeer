@@ -1,24 +1,27 @@
 * {
-    width: 100%;
-    padding: 0;
-    margin: 0;
+  width: 100%;
+  padding: 0;
+  margin: 0;
 }
 
 .navbar {
-    background-color: white;
-    display: flex;
-    justify-content: space-around;
-    margin: 2%;
-    text-decoration: none;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  margin: 2%;
+}
+
+.navbar a {
+  text-decoration: none;
 }
 
 .top {
-    background-color: white;
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-end;
-    margin: 2%;
-    text-decoration: dashed;
+  background-color: white;
+  margin: 2%;
 }
 
-.navbot {}
+.top a {
+  background-color: white;
+  margin: 2%;
+  text-decoration: none;
+}/*# sourceMappingURL=style.css.map */
