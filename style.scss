@@ -42,7 +42,7 @@
             margin-right: 4%;
         }
         .left {
-            font-family: 'Dancing Script', cursive;
+            font-family: 'Great Vibes', cursive;
             text-align: left;
             margin-left: 4%;
             font-size: 2rem;
@@ -129,6 +129,10 @@
         margin-top: 2%;
         margin-bottom: 2%;
         text-align: center;
+        list-style-position: inside;
+        li {
+            margin: 1%;
+        }
     }
     
     // .fixed {

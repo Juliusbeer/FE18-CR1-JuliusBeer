@@ -44,7 +44,7 @@ hr {
   margin-right: 4%;
 }
 .top .left {
-  font-family: "Dancing Script", cursive;
+  font-family: "Great Vibes", cursive;
   text-align: left;
   margin-left: 4%;
   font-size: 2rem;
@@ -129,4 +129,8 @@ hr {
   margin-top: 2%;
   margin-bottom: 2%;
   text-align: center;
+  list-style-position: inside;
+}
+.list li {
+  margin: 1%;
 }/*# sourceMappingURL=style.css.map */
