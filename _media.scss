@@ -3,6 +3,23 @@
         .container {
             grid-template-rows: repeat(9, 1fr);
             grid-template-columns: repeat(1, 1fr);
+            padding-top: 30%;
+        }
+        .footer {
+            margin-top: 120%;
+        }
+    }
+}
+
+@media screen and (min-width: 481px) and (max-width: 767px) {
+    body {
+        .container {
+            grid-template-rows: repeat(5, 1fr);
+            grid-template-columns: repeat(2, 1fr);
+            padding-top: 25%;
+        }
+        .footer {
+            margin-top: 20%;
         }
     }
 }
