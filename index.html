@@ -15,14 +15,21 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
 
+    <!-- Swiper -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
 
+    <!-- Animate -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+    <!-- Sweetalert -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11.7.1/dist/sweetalert2.min.css">
 </head>
 
 <body>
     <header>
         <div class="fixed">
             <div class="top">
-                <a class="navtop left" href="index.html">Food blog</a>
+                <a class="navtop left animate__animated animate__bounceInDown" href="index.html">Food blog</a>
                 <a class="navtop right" href="recipeotm.html">Recipes &#128269;</a>
 
             </div>
@@ -32,7 +39,7 @@
                     <a class="navbot" href="#">Pasta</a>
                     <a class="navbot" href="#">Taco</a>
                     <a class="navbot" href="#">Pizza</a>
-                    <a class="navbot" href="#">Dessert</a>
+                    <a id="dessert" class="navbot" href="#">Dessert</a>
                     <a class="navbot" href="#">Breakfast</a>
                     <a class="navbot" href="#">Lunch</a>
                     <a class="navbot" href="#">Dinner</a>
@@ -45,41 +52,75 @@
     </header>
 
     <main>
-        <div class="wrapper">
+        <div class="hero animate__animated animate__pulse">
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <img src="https://cdn.pixabay.com/photo/2016/03/27/21/59/bread-1284438_1280.jpg" />
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="./pictures/cake.jpg" />
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="./pictures/eclair.jpg" />
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="./pictures/hamburger.jpg" />
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="./pictures/macarons.jpg" />
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="./pictures/pancakes.jpg" />
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="./pictures/spaghetti.jpg" />
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="./pictures/waffle-hearts.jpg" />
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="./pictures/coffee.jpg" />
+                    </div>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+        <div class="wrapper ">
             <div class="container">
-                <div class="image">
-                    <img src="./pictures/bread.jpg" alt="Coissant">
+                <div class="image animate__animated ">
+                    <img src="https://cdn.pixabay.com/photo/2016/03/27/21/59/bread-1284438_1280.jpg" alt="Coissant">
                     <p class="textbottom">Breakfast<br>Croissants</p>
                 </div>
-                <div class="image">
+                <div class="image animate__animated ">
                     <img src="./pictures/cake.jpg" alt="Cake">
                     <p class="textbottom">Dessert<br>Cake</p>
                 </div>
-                <div class="image">
+                <div class="image animate__animated ">
                     <img src="./pictures/eclair.jpg" alt="Eclair">
                     <p class="textbottom">Dessert<br>Eclair</p>
                 </div>
-                <div class="image">
+                <div class="image animate__animated ">
                     <img src="./pictures/hamburger.jpg" alt="Hamburger">
                     <p class="textbottom">Lunch<br>Burger</p>
                 </div>
-                <div class="image">
+                <div class="image animate__animated ">
                     <img src="./pictures/macarons.jpg" alt="Macarons">
                     <p class="textbottom">Dessert<br>Macarons</p>
                 </div>
-                <div class="image">
+                <div class="image animate__animated ">
                     <img src="./pictures/pancakes.jpg" alt="Pancakes">
                     <p class="textbottom">Breakfast<br>Pancakes</p>
                 </div>
-                <div class="image">
+                <div class="image animate__animated ">
                     <img src="./pictures/spaghetti.jpg" alt="Spaghetti">
                     <p class="textbottom">Dinner<br>Spaghetti</p>
                 </div>
-                <div class="image">
+                <div class="image animate__animated ">
                     <img src="./pictures/waffle-hearts.jpg" alt="Waffles">
                     <p class="textbottom">Breakfast<br>Waffles</p>
                 </div>
-                <div class="image coffee">
+                <div class="image coffee animate__animated">
                     <img src="./pictures/coffee.jpg" alt="Coffee">
                     <p class="textbottom">Breakfast<br>Coffee</p>
                 </div>
@@ -113,6 +154,15 @@
 
     </footer>
     </div>
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.7.1/dist/sweetalert2.all.min.js"></script>
+    <!-- <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script> -->
+
 </body>
 
 </html>
